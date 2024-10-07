@@ -1,0 +1,12 @@
+void main() {
+  List<int> sayilar = [1, 2, 3, 4, 5];
+  print('Toplam: ${toplam(sayilar)}');
+}
+
+int toplam(List<int> sayilar) {
+  int toplam = 0;
+  for (int sayi in sayilar) {
+    toplam += sayi;
+  }
+  return toplam;
+}
