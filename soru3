@@ -1,0 +1,9 @@
+List<T> tersCevir<T>(List<T> liste) {
+  List<T> tersListe = List.from(liste.reversed);
+  return tersListe;
+}
+
+void main() {
+  List<int> sayilar = [1, 2, 3, 4, 5];
+  print('Ters Liste: ${tersCevir(sayilar)}');
+}
